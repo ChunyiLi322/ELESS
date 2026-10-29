@@ -1,0 +1,4 @@
+-----------------------./targetmodelpathlstm/ag--------wordLSTM------------------pww-----------------------------------------------------
+For target model wordLSTM: original accuracy原本不为对抗样本的概率: 50.000%, 最终对抗样本的概率 adv accuracy: 50.000%, 整体单词替换比例avg changed rate: nan%, 对抗文本平均长度num of queries: 32.0
+-----------------------./targetmodelpathlstm/ag--------wordLSTM------------------pww-----------------------------------------------------
+For target model wordLSTM: original accuracy原本不为对抗样本的概率: 50.000%, 最终对抗样本的概率 adv accuracy: 50.000%, 整体单词替换比例avg changed rate: nan%, 对抗文本平均长度num of queries: 32.0

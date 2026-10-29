@@ -1,0 +1,68 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# 模型权重
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.engine
+*.gguf
+
+# 数据集和训练输出
+datasets/
+dataset/
+data/
+outputs/
+output/
+runs/
+checkpoints/
+logs/
+
+# 常见缓存
+.cache/
+huggingface/
+wandb/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Model weights
+*.pt
+*.pth
+*.pth.tar
+*.ckpt
+*.safetensors
+*.onnx
+*.gguf
+**/pytorch_model.bin
+
+# Large embeddings
+/embedding/*.txt
+/cos_sim_counter_fitting.npy
+
+# Datasets
+/ESIM/data/
+/targetmodelpathbert/MNLI/
+/targetmodelpathbert/fake/
+/targetmodelpathbert/snli_1.0/
+/targetmodelpathbert/yelp/
+
+# Model files without extensions
+/targetmodelpathcnn/*
+/targetmodelpathlstm/*
+
+# Model cache
+/tf_cache/
