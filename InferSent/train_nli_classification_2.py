@@ -325,8 +325,8 @@ def read_data(filepath, data_size=20000, target_model='InferSent', lowercase=Fal
 # Main function to execute the training and evaluation
 def main():
     # Load the dataset
-    train_data_path = '/home/lcy/TextRSS/data/snli'
-    # train_data_path = '/home/lcy/TextRSS/data/mnli_mismatched'
+    train_data_path = '/home/lcy/ELESS/data/snli'
+    # train_data_path = '/home/lcy/ELESS/data/mnli_mismatched'
 
     data = read_data(train_data_path, target_model='InferSent')
 
@@ -369,7 +369,7 @@ def main():
     # print("-------------------------------------------------------",len(val_data['hypotheses']))
 
     # 加载 GloVe embeddings
-    embedding_path = '/home/lcy/TextRSS/embedding/glove.6B.200d.txt'
+    embedding_path = '/home/lcy/ELESS/embedding/glove.6B.200d.txt'
 
     # 初始化数据集
     train_dataset = NLIDataset_InferSent(embedding_path, data=train_data, batch_size=32)
@@ -489,8 +489,8 @@ def main():
     # print(f'Epoch {epoch+1}, Validation Accuracy: {val_accuracy:.4f}')
     orig_failures = 0
     data = read_data(train_data_path, data_size=32, target_model='infersent')
-    # model = NLI_infer_InferSent('/home/lcy/TextRSS/InferSent/mnli_m_model_epoch_100.pt',
-    #                                 '/home/lcy/TextRSS/embedding/glove.6B.200d.txt',
+    # model = NLI_infer_InferSent('/home/lcy/ELESS/InferSent/mnli_m_model_epoch_100.pt',
+    #                                 '/home/lcy/ELESS/embedding/glove.6B.200d.txt',
     #                                 data=data,
     #                                 batch_size=32)
     predictor = model.text_pred

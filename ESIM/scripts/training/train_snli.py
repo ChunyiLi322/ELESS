@@ -215,7 +215,7 @@ def main(train_file,
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Train the ESIM model on SNLI')
     parser.add_argument('--config',
-                        default="/home/lcy/TextRSS/ESIM/config/training/snli_training.json",
+                        default="/home/lcy/ELESS/ESIM/config/training/snli_training.json",
                         help='Path to a json configuration file')
     parser.add_argument('--checkpoint',
                         default="",

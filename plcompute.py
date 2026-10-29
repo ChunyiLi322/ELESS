@@ -178,7 +178,7 @@ if __name__ == "__main__":
                 "TextFooler": f"{BASE}/adversaries_mr_cnn_TextFooler.txt",
                 "HardLabel": f"{BASE}/adversaries_mr_cnn_hardlabel.txt",
                 "Limeattack": f"{BASE}/adversaries_mr_cnn_limeattack.txt",
-                "TextRSS": f"{BASE}/adversaries_mr_cnn_TextRSS.txt",
+                "ELESS": f"{BASE}/adversaries_mr_cnn_ELESS.txt",
             },
             "WordLSTM": {
                 "PWWS": f"{BASE}/adversaries_mr_lstm_pww.txt",
@@ -186,7 +186,7 @@ if __name__ == "__main__":
                 "TextFooler": f"{BASE}/adversaries_mr_lstm_TextFooler.txt",
                 "HardLabel": f"{BASE}/adversaries_mr_lstm_hardlabel.txt",
                 "Limeattack": f"{BASE}/adversaries_mr_lstm_limeattack.txt",
-                "TextRSS": f"{BASE}/adversaries_mr_lstm_TextRSS.txt",
+                "ELESS": f"{BASE}/adversaries_mr_lstm_ELESS.txt",
             },
             "Bert": {
                 "PWWS": f"{BASE}/adversaries_mr_bert_pww.txt",
@@ -194,7 +194,7 @@ if __name__ == "__main__":
                 "TextFooler": f"{BASE}/adversaries_mr_bert_TextFooler.txt",
                 "HardLabel": f"{BASE}/adversaries_mr_bert_hardlabel.txt",
                 "Limeattack": f"{BASE}/adversaries_mr_bert_limeattack.txt",
-                "TextRSS": f"{BASE}/adversaries_mr_bert_TextRSS.txt",
+                "ELESS": f"{BASE}/adversaries_mr_bert_ELESS.txt",
             },
         },
 
@@ -205,7 +205,7 @@ if __name__ == "__main__":
                 "TextFooler": f"{BASE}/adversaries_imdb_cnn_TextFooler.txt",
                 "HardLabel": f"{BASE}/adversaries_imdb_cnn_hardlabel.txt",
                 "Limeattack": f"{BASE}/adversaries_imdb_cnn_limeattack.txt",
-                "TextRSS": f"{BASE}/adversaries_imdb_cnn_TextRSS.txt",
+                "ELESS": f"{BASE}/adversaries_imdb_cnn_ELESS.txt",
             },
             "WordLSTM": {
                 "PWWS": f"{BASE}/adversaries_imdb_lstm_pww.txt",
@@ -213,7 +213,7 @@ if __name__ == "__main__":
                 "TextFooler": f"{BASE}/adversaries_imdb_lstm_TextFooler.txt",
                 "HardLabel": f"{BASE}/adversaries_imdb_lstm_hardlabel.txt",
                 "Limeattack": f"{BASE}/adversaries_imdb_lstm_limeattack.txt",
-                "TextRSS": f"{BASE}/adversaries_imdb_lstm_TextRSS.txt",
+                "ELESS": f"{BASE}/adversaries_imdb_lstm_ELESS.txt",
             },
             "Bert": {
                 "PWWS": f"{BASE}/adversaries_imdb_bert_pww.txt",
@@ -221,7 +221,7 @@ if __name__ == "__main__":
                 "TextFooler": f"{BASE}/adversaries_imdb_bert_TextFooler.txt",
                 "HardLabel": f"{BASE}/adversaries_imdb_bert_hardlabel.txt",
                 "Limeattack": f"{BASE}/adversaries_imdb_bert_limeattack.txt",
-                "TextRSS": f"{BASE}/adversaries_imdb_bert_TextRSS.txt",
+                "ELESS": f"{BASE}/adversaries_imdb_bert_ELESS.txt",
             },
         },
 
@@ -232,7 +232,7 @@ if __name__ == "__main__":
                 "TextFooler": f"{BASE}/adversaries_yelp_cnn_TextFooler.txt",
                 "HardLabel": f"{BASE}/adversaries_yelp_cnn_hardlabel.txt",
                 "Limeattack": f"{BASE}/adversaries_yelp_cnn_limeattack.txt",
-                "TextRSS": f"{BASE}/adversaries_yelp_cnn_TextRSS.txt",
+                "ELESS": f"{BASE}/adversaries_yelp_cnn_ELESS.txt",
             },
             "WordLSTM": {
                 "PWWS": f"{BASE}/adversaries_yelp_lstm_pww.txt",
@@ -240,7 +240,7 @@ if __name__ == "__main__":
                 "TextFooler": f"{BASE}/adversaries_yelp_lstm_TextFooler.txt",
                 "HardLabel": f"{BASE}/adversaries_yelp_lstm_hardlabel.txt",
                 "Limeattack": f"{BASE}/adversaries_yelp_lstm_limeattack.txt",
-                "TextRSS": f"{BASE}/adversaries_yelp_lstm_TextRSS.txt",
+                "ELESS": f"{BASE}/adversaries_yelp_lstm_ELESS.txt",
             },
             "Bert": {
                 "PWWS": f"{BASE}/adversaries_yelp_bert_pww.txt",
@@ -248,7 +248,7 @@ if __name__ == "__main__":
                 "TextFooler": f"{BASE}/adversaries_yelp_bert_TextFooler.txt",
                 "HardLabel": f"{BASE}/adversaries_yelp_bert_hardlabel.txt",
                 "Limeattack": f"{BASE}/adversaries_yelp_bert_limeattack.txt",
-                "TextRSS": f"{BASE}/adversaries_yelp_bert_TextRSS.txt",
+                "ELESS": f"{BASE}/adversaries_yelp_bert_ELESS.txt",
             },
         },
 
@@ -259,7 +259,7 @@ if __name__ == "__main__":
                 "TextFooler": f"{BASE}/adversaries_ag_cnn_TextFooler.txt",
                 "HardLabel": f"{BASE}/adversaries_ag_cnn_hardlabel.txt",
                 "Limeattack": f"{BASE}/adversaries_ag_cnn_limeattack.txt",
-                "TextRSS": f"{BASE}/adversaries_ag_cnn_TextRSS.txt",
+                "ELESS": f"{BASE}/adversaries_ag_cnn_ELESS.txt",
             },
             "WordLSTM": {
                 "PWWS": f"{BASE}/adversaries_ag_lstm_pww.txt",
@@ -267,7 +267,7 @@ if __name__ == "__main__":
                 "TextFooler": f"{BASE}/adversaries_ag_lstm_TextFooler.txt",
                 "HardLabel": f"{BASE}/adversaries_ag_lstm_hardlabel.txt",
                 "Limeattack": f"{BASE}/adversaries_ag_lstm_limeattack.txt",
-                "TextRSS": f"{BASE}/adversaries_ag_lstm_TextRSS.txt",
+                "ELESS": f"{BASE}/adversaries_ag_lstm_ELESS.txt",
             },
             "Bert": {
                 "PWWS": f"{BASE}/adversaries_ag_bert_pww.txt",
@@ -275,7 +275,7 @@ if __name__ == "__main__":
                 "TextFooler": f"{BASE}/adversaries_ag_bert_TextFooler.txt",
                 "HardLabel": f"{BASE}/adversaries_ag_bert_hardlabel.txt",
                 "Limeattack": f"{BASE}/adversaries_ag_bert_limeattack.txt",
-                "TextRSS": f"{BASE}/adversaries_ag_bert_TextRSS.txt",
+                "ELESS": f"{BASE}/adversaries_ag_bert_ELESS.txt",
             },
         },
     }
@@ -283,8 +283,8 @@ if __name__ == "__main__":
     DATASETS = ["MR", "IMDb", "Yelp", "AG"]
     MODELS = ["WordCNN", "WordLSTM", "Bert"]
 
-    # Limeattack 放在 TextRSS 之前
-    ATTACKS = ["PWWS", "DeepWordBug", "TextFooler", "HardLabel", "Limeattack", "TextRSS"]
+    # Limeattack 放在 ELESS 之前
+    ATTACKS = ["PWWS", "DeepWordBug", "TextFooler", "HardLabel", "Limeattack", "ELESS"]
 
     
     
@@ -348,7 +348,7 @@ if __name__ == "__main__":
             "TextFooler":  {"linestyle": "-.", "marker": "s"},  # 点划线 + 方块
             "HardLabel":   {"linestyle": ":",  "marker": "D"},  # 点线 + 菱形
             "Limeattack":  {"linestyle": "-",  "marker": "P"},  # 实线 + 五边形（新增）
-            "TextRSS":     {"linestyle": "--", "marker": "^"},  # 虚线 + 三角
+            "ELESS":     {"linestyle": "--", "marker": "^"},  # 虚线 + 三角
         }
 
         for atk in ATTACKS:
@@ -385,7 +385,7 @@ if __name__ == "__main__":
             "TextFooler":  -0.5 * bar_width,
             "HardLabel":    0.5 * bar_width,
             "Limeattack":   1.5 * bar_width,
-            "TextRSS":      2.5 * bar_width,
+            "ELESS":      2.5 * bar_width,
         }
 
         for atk in ATTACKS:

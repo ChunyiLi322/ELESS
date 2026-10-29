@@ -191,7 +191,7 @@ if __name__ == "__main__":
                 "TextFooler":  f"{BASE}/adversaries_snli_infersent_tf_model.txt",
                 "HardLabel":   f"{BASE}/adversaries_snli_infersent_hl_model.txt",
                 "Limeattack":  f"{BASE}/adversaries_snli_infersent_li_model.txt",
-                "TextRSS":     f"{BASE}/adversaries_snli_infersent_our_model.txt",
+                "ELESS":     f"{BASE}/adversaries_snli_infersent_our_model.txt",
             },
             "ESIM": {
                 "PWWS":        f"{BASE}/adversaries_snli_esmi_pww_model.txt",
@@ -199,7 +199,7 @@ if __name__ == "__main__":
                 "TextFooler":  f"{BASE}/adversaries_snli_esmi_tf_model.txt",
                 "HardLabel":   f"{BASE}/adversaries_snli_esmi_hl_model.txt",
                 "Limeattack":  f"{BASE}/adversaries_snli_esmi_li_model.txt",
-                "TextRSS":     f"{BASE}/adversaries_snli_esmi_our_model.txt",
+                "ELESS":     f"{BASE}/adversaries_snli_esmi_our_model.txt",
             },
             "Bert": {
                 "PWWS":        f"{BASE}/adversaries_snli_BERT_pww_model.txt",
@@ -207,7 +207,7 @@ if __name__ == "__main__":
                 "TextFooler":  f"{BASE}/adversaries_snli_BERT_tf_model.txt",
                 "HardLabel":   f"{BASE}/adversaries_snli_BERT_hl_model.txt",
                 "Limeattack":  f"{BASE}/adversaries_snli_BERT_li_model.txt",
-                "TextRSS":     f"{BASE}/adversaries_snli_BERT_our_model.txt",
+                "ELESS":     f"{BASE}/adversaries_snli_BERT_our_model.txt",
             },
         },
 
@@ -218,7 +218,7 @@ if __name__ == "__main__":
                 "TextFooler":  f"{BASE}/adversaries_mnli_m_infersent_tf_model.txt",
                 "HardLabel":   f"{BASE}/adversaries_mnli_m_infersent_hl_model.txt",
                 "Limeattack":  f"{BASE}/adversaries_mnli_m_infersent_li_model.txt",
-                "TextRSS":     f"{BASE}/adversaries_mnli_m_infersent_our_model.txt",
+                "ELESS":     f"{BASE}/adversaries_mnli_m_infersent_our_model.txt",
             },
             "ESIM": {
                 "PWWS":        f"{BASE}/adversaries_mnli_m_esmi_pww_model.txt",
@@ -226,7 +226,7 @@ if __name__ == "__main__":
                 "TextFooler":  f"{BASE}/adversaries_mnli_m_esmi_tf_model.txt",
                 "HardLabel":   f"{BASE}/adversaries_mnli_m_esmi_hl_model.txt",
                 "Limeattack":  f"{BASE}/adversaries_mnli_m_esmi_li_model.txt",
-                "TextRSS":     f"{BASE}/adversaries_mnli_m_esmi_our_model.txt",
+                "ELESS":     f"{BASE}/adversaries_mnli_m_esmi_our_model.txt",
             },
             "Bert": {
                 "PWWS":        f"{BASE}/adversaries_mnli_m_BERT_pww_model.txt",
@@ -234,7 +234,7 @@ if __name__ == "__main__":
                 "TextFooler":  f"{BASE}/adversaries_mnli_m_BERT_tf_model.txt",
                 "HardLabel":   f"{BASE}/adversaries_mnli_m_BERT_hl_model.txt",
                 "Limeattack":  f"{BASE}/adversaries_mnli_m_BERT_li_model.txt",
-                "TextRSS":     f"{BASE}/adversaries_mnli_m_BERT_our_model.txt",
+                "ELESS":     f"{BASE}/adversaries_mnli_m_BERT_our_model.txt",
             },
         },
 
@@ -245,7 +245,7 @@ if __name__ == "__main__":
                 "TextFooler":  f"{BASE}/adversaries_mnli_mis_infersent_tf_model.txt",
                 "HardLabel":   f"{BASE}/adversaries_mnli_mis_infersent_hl_model.txt",
                 "Limeattack":  f"{BASE}/adversaries_mnli_mis_infersent_li_model.txt",
-                "TextRSS":     f"{BASE}/adversaries_mnli_mis_infersent_our_model.txt",
+                "ELESS":     f"{BASE}/adversaries_mnli_mis_infersent_our_model.txt",
             },
             "ESIM": {
                 "PWWS":        f"{BASE}/adversaries_mnli_mis_esmi_pww_model.txt",
@@ -253,7 +253,7 @@ if __name__ == "__main__":
                 "TextFooler":  f"{BASE}/adversaries_mnli_mis_esmi_tf_model.txt",
                 "HardLabel":   f"{BASE}/adversaries_mnli_mis_esmi_hl_model.txt",
                 "Limeattack":  f"{BASE}/adversaries_mnli_mis_esmi_li_model.txt",
-                "TextRSS":     f"{BASE}/adversaries_mnli_mis_esmi_our_model.txt",
+                "ELESS":     f"{BASE}/adversaries_mnli_mis_esmi_our_model.txt",
             },
             "Bert": {
                 "PWWS":        f"{BASE}/adversaries_mnli_mis_BERT_pww_model.txt",
@@ -261,14 +261,14 @@ if __name__ == "__main__":
                 "TextFooler":  f"{BASE}/adversaries_mnli_mis_BERT_tf_model.txt",
                 "HardLabel":   f"{BASE}/adversaries_mnli_mis_BERT_hl_model.txt",
                 "Limeattack":  f"{BASE}/adversaries_mnli_mis_BERT_li_model.txt",
-                "TextRSS":     f"{BASE}/adversaries_mnli_mis_BERT_our_model.txt",
+                "ELESS":     f"{BASE}/adversaries_mnli_mis_BERT_our_model.txt",
             },
         },
     }
 
     DATASETS = ["SNLI", "MNLI+", "MNLI-"]
     MODELS = ["InferSent", "ESIM", "Bert"]
-    ATTACKS = ["PWWS", "DeepWordBug", "TextFooler", "HardLabel", "Limeattack", "TextRSS"]
+    ATTACKS = ["PWWS", "DeepWordBug", "TextFooler", "HardLabel", "Limeattack", "ELESS"]
     
     
     print("============---======================0==================================================")
@@ -345,7 +345,7 @@ if __name__ == "__main__":
             "TextFooler":  {"linestyle": "-.", "marker": "s"},  # 点划线 + 方块
             "HardLabel":   {"linestyle": ":",  "marker": "D"},  # 点线 + 菱形
             "Limeattack":  {"linestyle": "-",  "marker": "P"},  # 实线 + 五边形（新增）
-            "TextRSS":     {"linestyle": "--", "marker": "^"},  # 虚线 + 三角
+            "ELESS":     {"linestyle": "--", "marker": "^"},  # 虚线 + 三角
         }
 
         for atk in ATTACKS:
@@ -382,7 +382,7 @@ if __name__ == "__main__":
             "TextFooler":  -0.5 * bar_width,
             "HardLabel":    0.5 * bar_width,
             "Limeattack":   1.5 * bar_width,
-            "TextRSS":      2.5 * bar_width,
+            "ELESS":      2.5 * bar_width,
         }
 
         for atk in ATTACKS:

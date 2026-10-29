@@ -384,8 +384,8 @@ def read_data(filepath):
 # Main function to execute the training and evaluation
 def main():
 
-    train_data_path = '/home/lcy/TextRSS/data/snli_1.0/snli_1.0_train.txt'
-    val_data_path = '/home/lcy/TextRSS/data/snli_1.0/snli_1.0_dev.txt'
+    train_data_path = '/home/lcy/ELESS/data/snli_1.0/snli_1.0_train.txt'
+    val_data_path = '/home/lcy/ELESS/data/snli_1.0/snli_1.0_dev.txt'
 
     train_data = read_data(train_data_path)
 
@@ -397,7 +397,7 @@ def main():
     # print("-------------------------------------------------------",len(val_data['hypotheses']))
 
     # 加载 GloVe embeddings
-    embedding_path = '/home/lcy/TextRSS/embedding/glove.6B.200d.txt'
+    embedding_path = '/home/lcy/ELESS/embedding/glove.6B.200d.txt'
 
     # 初始化数据集
     train_dataset = NLIDataset_InferSent(embedding_path, data=train_data, batch_size=32)

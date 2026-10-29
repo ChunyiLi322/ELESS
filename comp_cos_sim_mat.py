@@ -1,7 +1,7 @@
 import numpy as np
 import sys
 
-# embedding_path = sys.argv[1] # '/home/lcy/TextRSS/embedding/counter-fitted-vectors.txt'
+# embedding_path = sys.argv[1] # '/home/lcy/ELESS/embedding/counter-fitted-vectors.txt'
 embedding_path = './embedding/counter-fitted-vectors.txt'
 embeddings = []
 with open(embedding_path, 'r') as ifile:

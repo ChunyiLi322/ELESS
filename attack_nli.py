@@ -2896,7 +2896,7 @@ def main():
 
 
 
-        elif args.target_model_name == "TextRSS" and args.target_model == "infersent":
+        elif args.target_model_name == "ELESS" and args.target_model == "infersent":
                 new_text, num_changed, orig_label, \
                 new_label, num_queries = attack_infer(premise, hypothese, true_label, predictor, stop_words_set,
                                                     word2idx, idx2word, cos_sim, sim_predictor=use,
@@ -2907,7 +2907,7 @@ def main():
                                                     batch_size=args.batch_size)
 
 
-        elif args.target_model_name == "TextRSS" and args.target_model == "bert":
+        elif args.target_model_name == "ELESS" and args.target_model == "bert":
                 new_text, num_changed, orig_label, \
                 new_label, num_queries = attack(premise, hypothese, true_label, predictor, stop_words_set,
                                                       word2idx, idx2word, cos_sim, sim_predictor=use,

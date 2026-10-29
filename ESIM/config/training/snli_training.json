@@ -1,9 +1,9 @@
 {
-    "train_data": "/home/lcy/TextRSS/ESIM/data/SNLI/train_data.pkl",
-    "valid_data": "/home/lcy/TextRSS/ESIM/data/SNLI/dev_data.pkl",
-    "embeddings": "/home/lcy/TextRSS/ESIM/data/SNLI/embeddings.pkl",
+    "train_data": "/home/lcy/ELESS/ESIM/data/SNLI/train_data.pkl",
+    "valid_data": "/home/lcy/ELESS/ESIM/data/SNLI/dev_data.pkl",
+    "embeddings": "/home/lcy/ELESS/ESIM/data/SNLI/embeddings.pkl",
 
-    "target_dir": "/home/lcy/TextRSS/ESIM/results/SNlI",
+    "target_dir": "/home/lcy/ELESS/ESIM/results/SNlI",
     
     "hidden_size": 300,
     "dropout": 0.5,

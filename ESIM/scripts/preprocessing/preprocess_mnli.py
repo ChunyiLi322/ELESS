@@ -148,7 +148,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description='Preprocess the MultiNLI dataset')
     parser.add_argument('--config',
-                        default="/home/lcy/TextRSS/ESIM/config/preprocessing/mnli_preprocessing.json",
+                        default="/home/lcy/ELESS/ESIM/config/preprocessing/mnli_preprocessing.json",
                         help='Path to a configuration file for preprocessing MultiNLI')
     args = parser.parse_args()
 

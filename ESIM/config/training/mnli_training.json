@@ -1,10 +1,10 @@
 {
-    "train_data": "/home/lcy/TextRSS/ESIM/data/MNLI/train_data.pkl",
-    "valid_data": {"matched": "/home/lcy/TextRSS/ESIM/data/MNLI/matched_dev_data.pkl",
-                   "mismatched": "/home/lcy/TextRSS/ESIM/data/MNLI/mismatched_dev_data.pkl"},
-    "embeddings": "/home/lcy/TextRSS/ESIM/data/MNLI/embeddings.pkl",
+    "train_data": "/home/lcy/ELESS/ESIM/data/MNLI/train_data.pkl",
+    "valid_data": {"matched": "/home/lcy/ELESS/ESIM/data/MNLI/matched_dev_data.pkl",
+                   "mismatched": "/home/lcy/ELESS/ESIM/data/MNLI/mismatched_dev_data.pkl"},
+    "embeddings": "/home/lcy/ELESS/ESIM/data/MNLI/embeddings.pkl",
 
-    "target_dir": "/home/lcy/TextRSS/ESIM/results/MNLI",
+    "target_dir": "/home/lcy/ELESS/ESIM/results/MNLI",
     
     "hidden_size": 300,
     "dropout": 0.5,

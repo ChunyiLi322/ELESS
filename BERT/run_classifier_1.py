@@ -393,7 +393,7 @@ def main():
     # Required
     parser.add_argument('--data_dir', type=str, required=True)
     parser.add_argument('--bert_model', type=str, required=True,
-                        help='HF model name OR local path (offline). e.g., /root/autodl-fs/TextRSS/models/bert_small')
+                        help='HF model name OR local path (offline). e.g., /root/autodl-fs/ELESS/models/bert_small')
     parser.add_argument('--task_name', type=str, required=True, help='cola | mnli | snli | mrpc | mr | ag | imdb | yelp | fake')
     parser.add_argument('--output_dir', type=str, required=True)
 

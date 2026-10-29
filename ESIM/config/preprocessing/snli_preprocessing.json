@@ -1,7 +1,7 @@
 {
-    "data_dir": "/home/lcy/TextRSS/data/snli_1.0",
-    "embeddings_file": "/home/lcy/TextRSS/embedding/glove.6B.200d.txt",
-    "target_dir": "/home/lcy/TextRSS/ESIM/data/SNLI",
+    "data_dir": "/home/lcy/ELESS/data/snli_1.0",
+    "embeddings_file": "/home/lcy/ELESS/embedding/glove.6B.200d.txt",
+    "target_dir": "/home/lcy/ELESS/ESIM/data/SNLI",
 
     "lowercase": false,
     "ignore_punctuation": false,

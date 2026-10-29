@@ -123,7 +123,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description='Preprocess the SNLI dataset')
     parser.add_argument('--config',
-                        default="/home/lcy/TextRSS/ESIM/config/preprocessing/snli_preprocessing.json",
+                        default="/home/lcy/ELESS/ESIM/config/preprocessing/snli_preprocessing.json",
                         help='Path to a configuration file for preprocessing SNLI')
     args = parser.parse_args()
 
